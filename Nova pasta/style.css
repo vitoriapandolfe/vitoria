@@ -1,0 +1,80 @@
+/* h1 {
+    color: blueviolet;
+    font-family: Arial;
+    font-size: 60px
+
+}
+
+p{
+    color: brown;
+}
+
+div {
+       color: aqua;
+       font-family: fantasy;
+       font-weight: bold;
+       font-style: italic;
+       font-size: 24px;
+       background-color: black;
+
+} */
+
+/* .lisa {
+    width: 300px;
+    padding:30px;
+    border: dotted pink 20px;
+    border-radius: 20px;
+    background-color: black;
+    text-align: center;
+
+    
+} */
+
+.container-1 div, .container-2 div{
+display: flex;
+/* align-items: flex-start;
+align-items: flex-end;
+align-items: center; */
+/* flex-direction: column; */
+}
+
+
+.container-2{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: flex-start;
+
+
+}
+
+.container-box{
+width: 20%; 
+}
+
+
+.container-1 div, .container-2 div{
+    border: 1px solid gray;
+    /* justify-content: center; */
+    padding: 10px;
+}
+
+
+
+.box-1{
+flex: 1;
+order: 1;
+
+}
+
+.box-2{
+    flex: 2;
+    order: 2;
+}
+
+
+.box-3{
+    flex: 3;
+    order: 3;
+}
+
+/* codeshare.io/kimkim */
